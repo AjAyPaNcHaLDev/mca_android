@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Program2">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Num 1"
+        android:inputType="number"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/num1"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Num 2"
+        android:layout_marginBottom="10dp"
+        android:inputType="number"
+        android:id="@+id/num2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Real Number"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/add"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginBottom="10dp"
+        android:textSize="24sp"
+        android:id="@+id/result"
+        android:text="............"/>
+
+</LinearLayout>
